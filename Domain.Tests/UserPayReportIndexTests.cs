@@ -1,4 +1,5 @@
-﻿using Raven.Abstractions.Data;
+﻿using NUnit.Framework;
+using Raven.Abstractions.Data;
 using Raven.Client;
 using Raven.Client.Document;
 using Raven.Tests.Helpers;
@@ -7,13 +8,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xunit;
 
 namespace Domain.Tests
 {
+    [TestFixture]
     public class UserPayReportIndexTests : RavenTestBase
     {
-        [Fact]
+        [Test]
         public void CanCreateDocument()
         {
             using (var store = NewDocumentStore())
