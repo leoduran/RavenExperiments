@@ -11,7 +11,7 @@ using Xunit;
 
 namespace Domain.Tests
 {
-    public class Class1 : RavenTestBase
+    public class UserPayReportIndexTests : RavenTestBase
     {
         [Fact]
         public void CanCreateDocument()
