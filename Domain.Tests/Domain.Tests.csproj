@@ -92,10 +92,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocumentStorePreparer.cs" />
+    <Compile Include="RavenDependentTestBase.cs" />
     <Compile Include="UserPayReportIndexTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RavenTests\CanCallLastOnArray.cs" />
     <Compile Include="UserPayReportIndex.cs" />
+    <Compile Include="UserPayReportIndex_RavenDependentTestBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

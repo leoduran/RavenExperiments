@@ -1,1 +1,1 @@
-<Playlist Version="1.0"><Add Test="Domain.Tests.UserPayReportIndexTests.CanCreateDocument" /></Playlist>
+<Playlist Version="1.0"><Add Test="Domain.Tests.UserPayReportIndexTests.CanCreateDocument" /><Add Test="Domain.Tests.UserPayReportIndex_RavenDependentTestBase.CanCreateDocument" /></Playlist>
